@@ -12,19 +12,5 @@ Kana2Romaji File Renamer is a Python 3 script that accepts a directory path as a
 ### Project Prerequisites
 * Python 3.7 interpreter
 
-### Project Structure
-./
-├─ src/          # source code files
-│  │
-│  ├─ init.py    # empty init.py allows directory to be imported by test.py
-│  └─ main.py    # a callable script that renames files in a directory
-│
-├─ test/         # unit test files
-│  │
-│  └─ test.py    # contains some short unit tests
-│
-├─ LICENSE
-└─ README.md
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
