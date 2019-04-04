@@ -50,7 +50,7 @@ class TestMain(unittest.TestCase):
         self.assertEqual(["s", "o", "b", "b", "a"], main._replace_sokuon(["s", "o", "っ", "b", "a"]))
         self.assertEqual(["s", "o", "b", "b", "a"], main._replace_sokuon(["s", "o", "ッ", "b", "a"]))
 
-    def test__main__with_valid_data(self):
+    def test__translate_kana_to_romaji__with_valid_data(self):
         self.assertEqual("", main.translate_kana_to_romaji(""))
         self.assertEqual("doumo arigatou gozaimasu", main.translate_kana_to_romaji("どうも ありがとう ございます"))
         self.assertEqual("sayonara", main.translate_kana_to_romaji("さよなら"))
